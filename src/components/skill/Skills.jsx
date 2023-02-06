@@ -1,8 +1,9 @@
 import React from "react";
+import './Skills.css'
 
-function Skills() {
+function Skills({id}) {
   return (
-    <section className="skill-section">
+    <section className="skill-section" id={id}>
       <h1 className="skill-heading">Skills</h1>
       <div className="cards-container">
         <div className="skill-card">

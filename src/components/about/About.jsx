@@ -1,8 +1,9 @@
 import React from "react";
+import './About.css'
 
-function About() {
+function About({id}) {
   return (
-    <section className="about-section">
+    <section className="about-section" id={id}>
       <h1 className="about-heading">About Me</h1>
       <div className="about-info">
         <div className="profile_image">

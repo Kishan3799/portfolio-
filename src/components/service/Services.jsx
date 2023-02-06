@@ -1,8 +1,9 @@
 import React from 'react'
+import './Services.css'
 
-function Services() {
+function Services({id}) {
   return (
-    <section className="service-section">
+    <section className="service-section" id={id}>
       <h1 className="service-heading">Service</h1>
       <div className="service-container">
         <div className="service-card">
@@ -14,7 +15,7 @@ function Services() {
         <div className="service-card">
           <div className="service-card-body">
             <img src="src/assets/app_developer_img.png" alt="App Developer" />
-            <h4 className="service-card-title">Mobile App Developer</h4>            
+            <h4 className="service-card-title">Mobile App Developer</h4>          
           </div>
         </div>
         <div className="service-card">

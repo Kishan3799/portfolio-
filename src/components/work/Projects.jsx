@@ -1,8 +1,9 @@
 import React from 'react'
+import './Projects.css'
 
-function Projects() {
+function Projects({id}) {
   return (
-    <section className="project-section">
+    <section className="project-section" id={id}>
       <h1 className="project-heading">Projects</h1>
       <div className="project-container">
         <div className="project-card">
