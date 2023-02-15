@@ -8,7 +8,7 @@ function About({id}) {
       <div className="about-info">
         <div className="profile_image">
           <div className="rectangle-frame">
-            <img src="src/assets/myimage.png" alt="Kishan verma" />
+            <img src="src/assets/Ellipse 3.svg" alt="Kishan verma" />
           </div>
         </div>
         <div className="profile_bio">

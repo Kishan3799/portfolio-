@@ -19,14 +19,14 @@
      padding: 0.8rem;
  }
  
- .rectangle-frame {
+ /* .rectangle-frame {
      height: 39.7rem;
      width: 30rem;
      border: 0.5rem solid transparent;
      border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
      border-image-slice: 1;
      
- }
+ } */
  
  .rectangle-frame img {
      width: 29rem;
@@ -60,12 +60,12 @@
         width: 19rem;
     }
 
-    .rectangle-frame {
+    /* .rectangle-frame {
         height: 26.3rem;
         width: 20rem;
         border: 0.5rem solid transparent;
         border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
         border-image-slice: 1;
         
-    }
+    } */
  }
